@@ -1,0 +1,1157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Respire Fitness</title>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link href="assets/plugins/bootstrap-5.3.8-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/plugins/fontawesome-free-7.2.0-web/css/all.min.css" rel="stylesheet" />
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Manrope:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+
+    <!-- favIcon -->
+    <link rel="icon" type="image/jpeg" href="assets/images/imageLogo.png">
+</head>
+<body>
+
+<!-- Upper Section -->
+<div class="upperSec pb-5" id="home">
+
+    <!-- Desktop Commercial -->
+    <div class="desktop-commercial d-none d-xl-flex container order-2 order-xl-1">
+        <div class="logo-line">
+            <span></span>
+            <small class="top-text">COMMERCIAL &amp; HOME GYMS</small>
+        </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-xl py-3">
+        <div class="container">
+
+            <!-- LEFT -->
+            <div class="logo-box">
+                <a class="navbar-brand">
+                    ANY<span style="color:#E11D48;">FIT</span>
+                </a>
+            </div>
+
+            <!-- CENTER -->
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">HOME</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">ABOUT</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#products">PRODUCTS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#services">SERVICES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+
+            <!-- RIGHT -->
+            <div class="nav-actions">
+                <button class="btn quote-btn" data-bs-toggle="modal" data-bs-target="#freeQuote">
+                    GET A FREE QUOTE
+                </button>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-solid fa-bars menu-icon"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Mobile Commercial -->
+    <!-- <div class="mobile-commercial d-flex d-xl-none container">
+        <div class="logo-line">
+            <span></span>
+            <small class="top-text">COMMERCIAL &amp; HOME GYMS</small>
+        </div>
+    </div> -->
+
+    <!-- Header Section -->
+    <div class="container header d-flex flex-column justify-content-center">
+        <h1 class="d-flex flex-column">
+            <span>PREMIUM</span>
+            <span>GYM</span>
+            <span style="color:rgb(225, 29, 72);">EQUIPMENT</span>
+        </h1>
+        <div>
+            <p>Engineered for durability, built for performance. Anyfit delivers complete gym setup solutions — from premium machines to expert installation and lifelong service.</p>
+        </div>
+        <div class="header-buttons">
+            <button type="button" class="btn1 fw-bold" onclick="location.href='#products'">EXPLORE PRODUCTS 
+                <i class="fa-solid fa-arrow-right-long ms-2 arrow"></i> 
+            </button>
+            <button type="button" class="btn2 fw-bold" data-bs-toggle="modal" data-bs-target="#enquireNow">ENQUIRE NOW</button>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Enquiry Form -->
+<div class="modal fade" id="enquireNow" tabindex="-1" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content enquire-modal">
+            <div class="modal-header border-0">
+                <div>
+                    <h2>ENQUIRE NOW</h2>
+                    <p>Regarding: <span>Anyfit Pro Treadmill X9</span></p>
+                </div>
+                <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Full name *">
+                    </div>
+
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email address *">
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" placeholder="Phone *">
+                        </div>
+
+                        <div class="col-md-6 mb-3">
+                            <input type="text" class="form-control" placeholder="City">
+                        </div>
+                    </div>
+
+                    <div class="mb-4">
+                        <textarea rows="4" class="form-control" placeholder="Your requirements..."></textarea>
+                    </div>
+                    <button class="submit-btn w-100">
+                        <i class="fa-regular fa-paper-plane me-2"></i>SUBMIT ENQUIRY
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Get A Free Quote -->
+<div class="modal fade" id="freeQuote" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content enquire-modal">
+            <div class="modal-header">
+                <div>
+                    <h2 class="modal-title">GET A FREE QUOTE</h2>
+                    <p>Tell us about your gym and we'll craft a tailored proposal.</p>
+                </div>
+                <button type="button" class="btn-close btn-close-white"
+                    data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Full name *">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email address *">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="text" class="form-control mb-3" placeholder="Phone *">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control mb-3" placeholder="City">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <textarea rows="4" class="form-control" placeholder="Your requirements..."></textarea>
+                    </div>
+                    <button class="submit-btn">
+                        <i class="fa-regular fa-paper-plane me-2"></i>
+                        SUBMIT ENQUIRY
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Contact Us -->
+<div class="modal fade" id="contactUs" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content enquire-modal">
+            <div class="modal-header">
+                <div>
+                    <h2 class="modal-title">CONTACT OUR TEAM</h2>
+                    <p>Tell us about your gym and we'll craft a tailored proposal.</p>
+                </div>
+                <button type="button" class="btn-close btn-close-white"
+                    data-bs-dismiss="modal"></button>
+            </div>
+
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <input type="text" class="form-control" placeholder="Full name *">
+                    </div>
+                    <div class="mb-3">
+                        <input type="email" class="form-control" placeholder="Email address *">
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <input type="text" class="form-control mb-3" placeholder="Phone *">
+                        </div>
+                        <div class="col-6">
+                            <input type="text" class="form-control mb-3" placeholder="City">
+                        </div>
+                    </div>
+                    <div class="mb-3">
+                        <textarea rows="4" class="form-control" placeholder="Your requirements..."></textarea>
+                    </div>
+                    <button class="submit-btn">
+                        <i class="fa-regular fa-paper-plane me-2"></i>
+                        SUBMIT ENQUIRY
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Stats Section -->
+<div class="subHeader">
+    <div class="container">
+        <div class="row text-center text-lg-start gy-5">
+            <div class="col-6 col-lg-3">
+                <h2>500<span>+</span></h2>
+                <p>GYM INSTALLATIONS</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h2>1000<span>+</span></h2>
+                <p>HAPPY CUSTOMERS</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h2>10<span>+</span></h2>
+                <p>YEARS EXPERIENCE</p>
+            </div>
+            <div class="col-6 col-lg-3">
+                <h2>100<span>%</span></h2>
+                <p>PAN INDIA SERVICE</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Category 01 -->
+<div class="Category01">
+    <div class="container">
+        <div class="section-title">
+            <hr>
+            <p>CHAPTER 01 – CATEGORIES</p>
+        </div>
+        <div class="category-heading">
+            <h2><span>SHOP BY</span><br>CATEGORY</h2>
+            <p>Three pillars of a complete floor. Precision built, commercial grade, ready to perform.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="category-cards">
+    <div class="container">
+        <div class="row g-4">
+            <!-- 01 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="category-card" data-bs-toggle="modal" data-bs-target="#enquireNow" style="cursor: pointer;">
+                    <img src="https://images.unsplash.com/photo-1637870473618-8c9fa7d11f0a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODh8MHwxfHNlYXJjaHwyfHx0cmVhZG1pbGwlMjBydW5uaW5nJTIwZGFyayUyMGd5bXxlbnwwfHx8fDE3ODM2NjQ2OTB8MA&ixlib=rb-4.1.0&q=85" alt="img1">
+                    <span class="number">01</span>
+                    <a href="#enquireNow" class="card-arrow">
+                        <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    </a>
+                    <div class="card-content">
+                        <h3>CARDIO</h3>
+                        <p>Treadmills, ellipticals, bikes & rowers engineered for relentless endurance sessions.</p>
+                        <a href="#" class="fw-bold">
+                            EXPLORE CATEGORY
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 02 -->
+             <div class="col-lg-4 col-md-6">
+                <div class="category-card" data-bs-toggle="modal" data-bs-target="#enquireNow" style="cursor: pointer;">
+                    <img src="https://images.unsplash.com/photo-1637430308606-86576d8fef3c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2Nzh8MHwxfHNlYXJjaHwyfHxzdHJlbmd0aCUyMHRyYWluaW5nJTIwZXF1aXBtZW50JTIwZ3ltfGVufDB8fHx8MTc4MzY2NDY3OXww&ixlib=rb-4.1.0&q=85" alt="img2">
+                    <span class="number">02</span>
+                    <a href="#enquireNow" class="card-arrow">
+                        <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    </a>
+                    <div class="card-content">
+                        <h3>STRENGTH</h3>
+                        <p>Plate-loaded machines, racks, benches & free weights built for maximum output.</p>
+                        <a href="#" class="fw-bold">
+                            EXPLORE CATEGORY
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 03 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="category-card" data-bs-toggle="modal" data-bs-target="#enquireNow" style="cursor: pointer;">
+                    <img src="https://images.unsplash.com/photo-1734630341082-0fec0e10126c?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NDQ2NDF8MHwxfHNlYXJjaHwzfHxkdW1iYmVsbHMlMjByYWNrJTIwZGFya3xlbnwwfHx8fDE3ODM2NjQ2OTB8MA&ixlib=rb-4.1.0&q=85" alt="img3">
+                    <span class="number">03</span>
+                    <a href="#enquireNow" class="card-arrow">
+                        <i class="fa-solid fa-arrow-up fa-rotate-by" style="--fa-rotate-angle: 45deg;"></i>
+                    </a>
+                    <div class="card-content">
+                        <h3>ACCESSORIES</h3>
+                        <p>Dumbbells, kettlebells, functional rigs & studio essentials to complete your floor.</p>
+                        <a href="#" class="fw-bold">
+                            EXPLORE CATEGORY
+                            <span></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Category 02 -->
+<div class="Category02" id="products">
+    <div class="container">
+        <div class="section-title2">
+            <hr>
+            <p>CHAPTER 02 – PRODUCTS</p>
+        </div>
+        <div class="category-heading2">
+            <h2>FEATURED 
+                <span style="color: #E11D48;">GEAR</span>
+            </h2>
+            <button class="chp02Btn" data-bs-toggle="modal" data-bs-target="#freeQuote">REQUEST CATALOGUE
+                <i class="fa-solid fa-arrow-right-long ms-1"></i>
+            </button>
+        </div>
+    </div>
+</div>
+
+<div class="featured-products">
+    <div class="container">
+        <div class="row gx-3">
+
+            <!-- 01 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1770513649465-2c60c8039806?crop=entropy&cs=srgb&fm=jpg" alt="">
+                    <span class="product-tag">CARDIO</span>
+                    <div class="product-content">
+                        <h3>ANYFIT PRO TREADMILL X9</h3>
+                        <p>
+                            Commercial motor, 22" incline deck & shock absorption for high-traffic floors.
+                        </p>
+                        <div class="product-btns">
+                            <button class="details-btn" disabled>
+                                VIEW DETAILS
+                            </button>
+                            <button class="enquire-btn" data-bs-toggle="modal" data-bs-target="#enquireNow">
+                                ENQUIRE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 02 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1685633224688-6a77675eb119?crop=entropy&cs=srgb&fm=jpg" alt="">
+                    <span class="product-tag">STRENGTH</span>
+                    <div class="product-content">
+                        <h3>POWER RACK ELITE</h3>
+                        <p>
+                            Heavy-gauge steel cage with integrated pull-up and safety spotter arms.
+                        </p>
+                        <div class="product-btns">
+                            <button class="details-btn" disabled>
+                                VIEW DETAILS
+                            </button>
+                            <button class="enquire-btn" data-bs-toggle="modal" data-bs-target="#enquireNow">
+                                ENQUIRE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 03 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1590487988256-9ed24133863e?crop=entropy&cs=srgb&fm=jpg" alt="">
+                    <span class="product-tag">ACCESSORIES</span>
+                    <div class="product-content">
+                        <h3>OLYMPIC DUMBBELL SET</h3>
+                        <p>
+                            Rubber-encased hex dumbbells, 2.5kg to 50kg, with premium knurled handles.
+                        </p>
+                        <div class="product-btns">
+                            <button class="details-btn">
+                                VIEW DETAILS
+                            </button>
+                            <button class="enquire-btn" data-bs-toggle="modal" data-bs-target="#enquireNow">
+                                ENQUIRE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 04 -->
+            <div class="col-lg-3 col-md-6 mb-4">
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1576678927484-cc907957088c?crop=entropy&cs=srgb&fm=jpg" alt="">
+                    <span class="product-tag">STRENGTH</span>
+                    <div class="product-content">
+                        <h3>FUNCTIONAL TRAINER DUAL</h3>
+                        <p>
+                            Dual adjustable pulleys with 90kg weight stacks for infinite movement patterns.
+                        </p>
+                        <div class="product-btns">
+                            <button class="details-btn" disabled>
+                                VIEW DETAILS
+                            </button>
+                            <button class="enquire-btn" data-bs-toggle="modal" data-bs-target="#enquireNow">
+                                ENQUIRE
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Category 03 -->
+<div class="Category03">
+    <div class="container">
+        <div class="section-title3">
+            <hr>
+            <p>CHAPTER 03 – WHY ANYFIT</p>
+        </div>
+        <div class="category-heading3">
+            <h2>
+                BUILT ON <span>TRUST</span>
+            </h2>
+        </div>
+    </div>
+</div>
+
+<div class="Category03-boxes">
+    <div class="container">
+        <div class="row g-0">
+
+            <!-- 01 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="category03-card">
+                    <div class="category03-top">
+                        <div class="category03-icon">
+                            <i class="fa-regular fa-circle-check"></i>
+                        </div>
+                        <span>01</span>
+                    </div>
+                    <h3>GENUINE ANYFIT EQUIPMENT</h3>
+                    <p>
+                        100% authentic products sourced directly, backed by full manufacturer warranty.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 02 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="category03-card">
+                    <div class="category03-top">
+                        <div class="category03-icon">
+                            <i class="fa-solid fa-calendar-check"></i>
+                        </div>
+                        <span>02</span>
+                    </div>
+                    <h3>PREMIUM BUILD QUALITY</h3>
+                    <p>
+                        Commercial-grade steel and components engineered to endure years of heavy use.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 03 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="category03-card">
+                    <div class="category03-top">
+                        <div class="category03-icon">
+                            <i class="fa-solid fa-dumbbell fa-rotate-by" style="--fa-rotate-angle: 135deg;"></i>
+                        </div>
+                        <span>03</span>
+                    </div>
+                    <h3>COMMERCIAL & HOME SOLUTIONS</h3>
+                    <p>
+                        Turnkey floor planning for boutique studios, chains and premium home gyms.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 04 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="category03-card">
+                    <div class="category03-top">
+                        <div class="category03-icon">
+                            <i class="fa-solid fa-wrench"></i>
+                        </div>
+                        <span>04</span>
+                    </div>
+                    <h3>EXPERT INSTALLATION</h3>
+                    <p>
+                        Certified technicians handle delivery, assembly and calibration end to end.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 05 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="category03-card">
+                    <div class="category03-top">
+                        <div class="category03-icon">
+                            <i class="fa-regular fa-life-ring"></i>
+                        </div>
+                        <span>05</span>
+                    </div>
+                    <h3>WARRANTY SUPPORT</h3>
+                    <p>
+                        Responsive support with genuine spare parts and rapid resolution turnaround.
+                    </p>
+                </div>
+            </div>
+
+            <!-- 06 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="category03-card">
+                    <div class="category03-top">
+                        <div class="category03-icon">
+                            <i class="fa-solid fa-business-time"></i>
+                        </div>
+                        <span>06</span>
+                    </div>
+                    <h3>AMC & ASC SERVICES</h3>
+                    <p>
+                        Annual maintenance and service contracts to keep every machine performing.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Category 04 -->
+<div class="Category04" id="services">
+    <div class="container">
+        <div class="section-title4">
+            <hr>
+            <p>CHAPTER 04 – SERVICES</p>
+        </div>
+        <div class="category-heading4">
+            <h2>
+                BEYOND THE <br><span>SALE</span>
+            </h2>
+            <p>
+                Complete lifecycle support — so your equipment performs on day one and year ten.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div class="Category04-boxes">
+    <div class="container">
+        <div class="row gx-3 gy-3">
+
+            <!-- Card 01 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="category04-card">
+                    <div class="category04-icon">
+                        <i class="fa-solid fa-business-time"></i>
+                    </div>
+                    <h3>ANNUAL MAINTENANCE CONTRACT</h3>
+                    <p>
+                        Scheduled preventive maintenance to maximise equipment uptime and lifespan.
+                    </p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#enquireNow">
+                        LEARN MORE
+                        <i class="fa-solid fa-arrow-up fa-rotate-by ms-2" style="--fa-rotate-angle: 45deg;"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- Card 02 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="category04-card">
+                    <div class="category04-icon">
+                        <i class="fa-regular fa-calendar-check"></i>
+                    </div>
+                    <h3>ANNUAL SERVICE CONTRACT</h3>
+                    <p>
+                        Comprehensive service coverage with priority technician dispatch.
+                    </p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#enquireNow">
+                        LEARN MORE
+                        <i class="fa-solid fa-arrow-up fa-rotate-by ms-2" style="--fa-rotate-angle: 45deg;"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 03 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="category04-card">
+                    <div class="category04-icon">
+                        <i class="fa-regular fa-truck"></i>
+                    </div>
+                    <h3>INSTALLATION & SETUP</h3>
+                    <p>
+                        Precision delivery, assembly and floor layout by trained specialists.
+                    </p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#enquireNow">
+                        LEARN MORE
+                        <i class="fa-solid fa-arrow-up fa-rotate-by ms-2" style="--fa-rotate-angle: 45deg;"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 04 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="category04-card">
+                    <div class="category04-icon">
+                        <i class="fa-solid fa-hammer"></i>
+                    </div>
+                    <h3>REPAIRS AND MAINTENANCE</h3>
+                    <p>
+                        On-site diagnostics and repairs to minimise downtime for your members.
+                    </p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#enquireNow">
+                        LEARN MORE
+                        <i class="fa-solid fa-arrow-up fa-rotate-by ms-2" style="--fa-rotate-angle: 45deg;"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 05 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="category04-card">
+                    <div class="category04-icon">
+                        <i class="fa-solid fa-gear"></i>
+                    </div>
+                    <h3>SPARE PARTS SUPPORT</h3>
+                    <p>
+                        Genuine OEM parts inventory for fast, reliable replacements.
+                    </p>
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#enquireNow">
+                        LEARN MORE
+                        <i class="fa-solid fa-arrow-up fa-rotate-by ms-2" style="--fa-rotate-angle: 45deg;"></i>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Category 05 -->
+<div class="Category05" id="about">
+    <div class="container">
+        <div class="row align-items-center">
+
+            <!-- LEFT -->
+            <div class="col-lg-6 order-2 order-lg-1">
+                <div class="category05-image">
+                    <img src="https://images.pexels.com/photos/3888405/pexels-photo-3888405.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt="">
+                    <div class="experience-box">
+                        <h2>10<span style="color: #E11D48;">+</span></h2>
+                        <p>
+                            YEARS OF PROVEN<br>EXCELLENCE
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Right -->
+            <div class="col-lg-6 gx-3 order-1 order-lg-2 gx-3">
+                <div class="section-title5">
+                    <hr>
+                    <p>CHAPTER 05 – ABOUT ANYFIT</p>
+                </div>
+                <h2 class="about-heading">
+                    <span>WE DON'T JUST SELL EQUIPMENT. </span><span class="outline">WE BUILD GYMS.</span>
+                </h2>
+                <p class="about-text">
+                    For over a decade, Anyfit has equipped commercial fitness centres, boutique studios and premium home gyms across India. 
+                    Our obsession with build quality and after-sales service has earned the trust of 1000+ customers.
+                </p>
+                <p class="about-text2">
+                    From floor planning and installation to AMC, ASC and genuine spare parts — we stay with you long after the delivery truck leaves.
+                </p>
+                <button class="about-btn mb-5" data-bs-toggle="modal" data-bs-target="#contactUs">
+                    READ MORE
+                    <i class="fa-solid fa-arrow-right-long ms-2 arrow"></i>
+                </button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Category 06 -->
+<div class="Category06">
+    <div class="container">
+        <div class="section-title6">
+            <hr>
+            <p>CHAPTER 06 – GALLERY</p>
+        </div>
+        <div class="category-heading6">
+            <h2>
+                OUR <span>WORK</span>
+            </h2>
+        </div>
+    
+    <!-- Gallery Grid -->
+        <div class="gallery-grid">
+            <div class="gallery-item tall">
+                <img src="https://images.unsplash.com/photo-1671970922029-0430d2ae122c?crop=entropy&cs=srgb&fm=jpg">
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/4753890/pexels-photo-4753890.jpeg">
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.pexels.com/photos/29392546/pexels-photo-29392546.jpeg">
+            </div>
+
+            <div class="gallery-item tall">
+                <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1?crop=entropy&cs=srgb&fm=jpg">
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?crop=entropy&cs=srgb&fm=jpg">
+            </div>
+
+            <div class="gallery-item">
+                <img src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?crop=entropy&cs=srgb&fm=jpg">
+            </div>
+        </div>
+    </div>
+</div> 
+
+
+
+<!-- Category 07 -->
+<div class="Category07">
+    <div class="container">
+        <div class="section-title">
+            <hr>
+            <p>CHAPTER 07 – TESTIMONIALS</p>
+        </div>
+        <div class="category-heading">
+            <h2><span>TRUSTED </span>VOICES</h2>
+        </div>
+    
+        <div class="owl-carousel testimonial-slider">
+
+            <!-- 01 -->
+            <div class="item">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        “Anyfit outfitted our entire 8000 sqft floor. The build quality is unreal and their installation team was flawless.”
+                    </p>
+                    <div class="client">
+                        <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?crop=entropy&cs=srgb&fm=jpg&w=200">
+                        <div class="client-info">
+                            <h3>Rohan Mehta</h3>
+                            <span>OWNER, IRONPEAK FITNESS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- 02 -->
+            <div class="item">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        “From consultation to AMC, everything has been seamless. Our members constantly compliment the equipment.”
+                    </p>
+                    <div class="client">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?crop=entropy&cs=srgb&fm=jpg&w=200">
+                        <div class="client-info">
+                            <h3>Priya Nair</h3>
+                            <span>STUDIO DIRECTOR, PULSE STUDIO</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 03 -->
+            <div class="item">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        “Built my dream home gym with Anyfit. Premium feel, fair pricing, and service that actually shows up.”
+                    </p>
+                    <div class="client">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?crop=entropy&cs=srgb&fm=jpg&w=200">
+                        <div class="client-info">
+                            <h3>Arjun Kapoor</h3>
+                            <span>HOME GYM ENTHUSIAST</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- 04 -->
+            <div class="item">
+                <div class="testimonial-card">
+                    <div class="stars">★★★★★</div>
+                    <p>
+                        “Their spare parts support keeps our downtime near zero. A true long-term partner, not just a vendor.”
+                    </p>
+                    <div class="client">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?crop=entropy&cs=srgb&fm=jpg&w=200">
+                        <div class="client-info">
+                            <h3>Sana Sheikh</h3>
+                            <span>GM. TITAN HEALTH CLUB</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="testimonial-btn-wrapper">
+            <div class="testimonial-buttons">
+                <button class="prev-btn"><i class="fa-solid fa-arrow-left"></i></button>
+                <button class="next-btn"><i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Category 08 -->
+<div class="Category08">
+    <div class="container">
+        <div class="faq-left">
+            <div class="section-title8">
+                <hr>
+                <p>CHAPTER 08 – FAQ</p>
+            </div>
+            <h2>
+                QUESTIONS <br>
+                <span>ANSWERED</span>
+            </h2>
+            <p class="faq-desc">
+                Everything you need to know about products, delivery, installation and service.
+            </p>
+        </div>
+
+        <div class="faq-right">
+            <div class="accordion" id="faqAccordion">
+
+                <!-- 01 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                            WHAT TYPES OF GYM EQUIPMENT DOES ANYFIT OFFER?
+                        </button>
+                    </h2>
+
+                    <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            We supply a complete range across Cardio, Strength and Accessories — treadmills, bikes, plate-loaded machines, racks, benches, dumbbells, functional rigs and studio essentials for both commercial and home gyms.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 02 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                            D0 YOU DELIVER ACROSS INDIA?
+                        </button>
+                    </h2>
+
+                    <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Yes. We offer PAN India delivery and service with a network of certified technicians for installation, maintenance and repairs.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 03 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                            HOW DOES INSTALLATION WORK?
+                        </button>
+                    </h2>
+
+                    <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Our certified team handles delivery, assembly, calibration and floor layout end to end, so your gym is member-ready from day one.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 04 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                            WHAT IS THE DIFFERENCE BETWEEN AMC AND ASC?
+                        </button>
+                    </h2>
+
+                    <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            An Annual Maintenance Contract (AMC) covers scheduled preventive maintenance, while an Annual Service Contract (ASC) provides broader coverage including priority repair dispatch..
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 05 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                            IS WARRANTY INCLUDED WITH THE EQUIPMENT?    
+                        </button>
+                    </h2>
+
+                    <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            All Anyfit equipment is genuine and backed by full manufacturer warranty, supported by our in-house service team and genuine OEM spare parts.
+                        </div>
+                    </div>
+                </div>
+
+                <!-- 06 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                            HOW DO I REQUEST A QUOTE?    
+                        </button>
+                    </h2>
+
+                    <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                        <div class="accordion-body">
+                            Click any 'Get a Free Quote' or 'Enquire Now' button and share your requirements. Our team responds within one business day with a tailored proposal.
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Build Ur Own Gym -->
+<section class="gym-hero" id="contact">
+    <div class="overlay"></div>
+    <div class="container position-relative">
+        <div class="row justify-content-center">
+            <div class="col-lg-10 text-center">
+                <h1 class="hero-title">
+                    <span class="white-text">READY TO BUILD</span>
+                    <span class="red-text">YOUR DREAM GYM?</span>
+                </h1>
+                <p class="hero-subtitle">
+                    Get a tailored proposal for your commercial or home gym — free<br>
+                    consultation, PAN India delivery.
+                </p>
+                <div class="img-btns">
+                    <button class="img-btn1" data-bs-toggle="modal" data-bs-target="#freeQuote">REQUEST A FREE QUOTE
+                        <i class="fa-solid fa-arrow-right-long ms-2 arrow"></i>
+                    </button>
+                    <button class="img-btn2" data-bs-toggle="modal" data-bs-target="#contactUs">CONTACT US</button>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+
+            <!-- Logo -->
+            <div class="col-lg-3">
+                <a href="#" class="footer-logo">
+                    ANY<span>FIT</span>
+                </a>
+                <p class="footer-text">
+                    Premium commercial & home gym equipment with expert installation and lifelong service across India.
+                </p>
+                <div class="social-icons">
+                    <a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="https://x.com/" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.youtube.com/" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                </div>
+            </div>
+
+            <!-- Links -->
+            <div class="col-lg-3">
+                <h6>QUICK LINKS</h6>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Categories -->
+            <div class="col-lg-3">
+                <h6>CATEGORIES & SERVICES</h6>
+                <ul>
+                    <li><a href="#">Cardio Equipment</a></li>
+                    <li><a href="#">Strength Equipment</a></li>
+                    <li><a href="#">Accessories Equipment</a></li>
+                    <li><a href="#">Annual Maintenance Contract</a></li>
+                    <li><a href="#">Annual Service Contract</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact -->
+            <div class="col-lg-3">
+                <h6>CONTACT</h6>
+                <ul class="contact-info">
+                    <li><i class="fa-solid fa-location-dot"></i> Plot 24, Industrial Area, Bengaluru, India</li>
+                    <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+                    <li><i class="fa-solid fa-envelope"></i> sales@anyfit.in</li>
+                </ul>
+                <button class="footer-btn" data-bs-toggle="modal" data-bs-target="#freeQuote">
+                    GET A FREE QUOTE
+                </button>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+
+<!-- CopyRight Bar -->
+<div class="footer-bottom">
+    <div class="container d-flex justify-content-between">
+        <p>© 2026 Anyfit Gym Equipment. All rights reserved.</p>
+        <div>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+        </div>
+    </div>
+</div>
+
+
+    <script src="assets/js/jquery-3.7.1.min.js"></script>
+    <script src="assets/js/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap-5.3.8-dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+
+
+<script>
+
+// NavBar
+    window.addEventListener("scroll", function () {
+        const navbar = document.querySelector(".navbar");
+        if (window.scrollY > 50)
+            navbar.classList.add("scrolled");
+        else
+            navbar.classList.remove("scrolled");
+    });
+
+// NavBar Close in Mobile
+    const menu = document.getElementById("mynavbar");
+    const menuIcon = document.querySelector(".menu-icon");
+
+    menu.addEventListener("shown.bs.collapse", function () {
+        menuIcon.classList.replace("fa-bars", "fa-xmark");
+    });
+
+    menu.addEventListener("hidden.bs.collapse", function () {
+        menuIcon.classList.replace("fa-xmark", "fa-bars");
+    });
+
+
+// OWL Carousel
+    $(document).ready(function(){
+        var owl = $(".testimonial-slider");
+        owl.owlCarousel({
+            loop:true,
+            margin:20,
+            nav:false,
+            dots:false,
+            autoplay:false,
+            smartSpeed:600,
+
+            responsive:{
+                0:{
+                    items:1
+                },
+                768:{
+                    items:2
+                },
+                1200:{
+                    items:3
+                }
+            }
+        });
+
+        $(".next-btn").click(function(){
+            owl.trigger("next.owl.carousel");
+        });
+        $(".prev-btn").click(function(){
+            owl.trigger("prev.owl.carousel");
+        });
+    });
+
+</script>
+</body>
+</html>
