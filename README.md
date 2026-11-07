@@ -1,8 +1,8 @@
 # Respire Fitness — Anyfit Website
 
-A modern, premium gym equipment website designed to showcase commercial and home fitness equipment, gym setup solutions, and professional installation and maintenance services.
+A modern, premium gym equipment website frontend designed to showcase commercial and home fitness equipment, gym setup solutions, and professional installation and maintenance services.
 
-Featuring a bold visual identity, immersive product sections, and enquiry-focused interactions, the website presents a complete fitness equipment brand experience.
+Featuring a bold visual identity, immersive product sections, and a responsive layout, the website presents a complete fitness equipment brand experience.
 
 ## 🌐 Live Website
 
@@ -13,14 +13,13 @@ Featuring a bold visual identity, immersive product sections, and enquiry-focuse
 
 - **Premium Landing Page** — Bold hero section with a modern fitness-oriented visual design.
 - **Shop by Category** — Explore Cardio, Strength, and Accessories equipment.
-- **Featured Products** — Showcase of selected gym equipment with product details and enquiry actions.
+- **Featured Products** — Showcase of selected gym equipment with product details and visual presentation.
 - **Why Anyfit** — Highlights product quality, installation, warranty, and service support.
 - **Services Section** — Dedicated sections for maintenance, installation, repairs, and spare parts.
 - **About Anyfit** — Brand introduction and gym equipment solutions overview.
 - **Image Gallery** — Visual showcase of gym equipment and installations.
-- **Testimonials** — Customer feedback and brand credibility section.
-- **FAQ Section** — Answers to common questions about products, delivery, and services.
-- **Enquiry Forms** — Interactive enquiry and free-quote sections.
+- **Testimonials** — Customer feedback presentation.
+- **FAQ Section** — Frequently asked questions about products, delivery, and services.
 - **Responsive Design** — Layout designed for different screen sizes.
 
 ## 🛠️ Tech Stack
@@ -43,11 +42,10 @@ Featuring a bold visual identity, immersive product sections, and enquiry-focuse
 | Gallery | Equipment and gym showcase |
 | Testimonials | Customer experiences |
 | FAQ | Frequently asked questions |
-| Contact | Enquiry forms and quote requests |
 
 ## 🎯 Project Objective
 
-To create a visually engaging and professional fitness equipment website that showcases products, communicates brand value, and provides a convenient way for users to enquire about gym equipment and setup solutions.
+To create a visually engaging and professional fitness equipment website frontend that showcases products, communicates brand value, and provides an intuitive browsing experience for users.
 
 ---
 
